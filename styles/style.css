@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(/fonts/Gilroy-Bold.otf);
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    font-family: Gilroy-Light;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+h2 {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+}
+
+.main_Menu {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    font-family: Gilroy-Bold;
+    border-bottom-style: solid;
+    border-bottom: 1px solid #828282;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.menu {
+    padding-top: 15px;
+}
+
+.information {
+    height: 660px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    font-family: Gilroy-Bold;
+    font-size: 46px;
+    line-height: 45px;
+    padding-top: 30px;
+}
+
+.abstract {
+    width: 155px;
+}
+
+.lang {
+    display: inline-flex;
+    align-self: end;
+    padding-top: 40px;
+    transform: rotate(-90deg);
+    font-family: Gilroy-Bold;
+}
+
+.photo {
+    padding-top: 30px;
+}
+
+.aboutMe {
+    display: flex;
+    height: 506px;
+    background-color: #F6F6F6;
+}
+
+.content {
+    height: 253px;
+    margin: auto;
+}
+
+/*Рейтинг владения ПО*/
+
+.skills {
+    height: 550px;
+    padding-top: 60px;
+}
+
+.skillsIcons {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.rating {
+    display: inline-block;
+    font-size: 0;
+    padding: 30px;
+}
+
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+
+.rating > span:before {
+    content: '★';
+}
+
+.rating > span.active {
+    color: black;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 2253px;
+    background-color: #F6F6F6;
+}
+
+.portfolioInner {
+    margin: auto;
+}
+
+.portfolioImg {
+    padding-top: 60px;
+}
+
+footer {
+    display: flex;
+    height: 620px;
+}
+
+.contacts {
+    margin: auto;
+}
+
+.contactsIcons {
+    display: flex;
+    width: 342px;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 91px;
+}
+
+.contactsText {
+    height: 34px;
+    width: 243px;
+    font-size: 14px;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.sendMessageButton {
+    font-family: Gilroy-bold;
+    font-size: 18px;
+    color: white;
+    width: 180px;
+    height: 42px;
+    border-radius: 21px;
+    border: black;
+    background: black;
+}
+
+.sendMessageButton:hover {
+    color: black;
+    background: #727272;
+}
