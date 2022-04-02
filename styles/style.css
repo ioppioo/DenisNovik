@@ -9,19 +9,22 @@
 }
 
 .main-menu {
-    display: inline-flex;
-    position: sticky;
+    display: flex;
+    position: fixed;
     top: 0;
     font-family: Gilroy-Bold, sans-serif;
-    border-bottom: 1px solid #828282;
-    padding-bottom: 35px;
     background-color: white;
-    width: 943.61px;
+    width: 100%;
 }
 
 .inner-menu {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-content: center;
+    width: 943.61px;
+    margin: 0 auto;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 35px;
 }
 
 .menu-item {
@@ -39,6 +42,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    margin-top: 73px;
 }
 
 .image {
