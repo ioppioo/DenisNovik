@@ -1,22 +1,50 @@
 @font-face {
     font-family: "Gilroy-Light";
-    src: url(/fonts/Gilroy-Light.otf);
+    src: url(../fonts/Gilroy-Light.otf);
 }
 
 @font-face {
     font-family: "Gilroy-Bold";
-    src: url(/fonts/Gilroy-Bold.otf);
+    src: url(../fonts/Gilroy-Bold.otf);
+}
+
+.main-menu {
+    display: inline-flex;
+    position: sticky;
+    top: 0;
+    font-family: Gilroy-Bold, sans-serif;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 35px;
+    background-color: white;
+    width: 943.61px;
+}
+
+.inner-menu {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    padding-top: 15.5px;
+
 }
 
 body {
-    display: grid;
-    justify-content: center;
-    font-family: Gilroy-Light;
+    font-family: Gilroy-Light, sans-serif;
     font-size: 18px;
     text-align: center;
-    vertical-align: middle;
+    margin: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 943.61px;
+    max-width: 100%;
+}
 
 a {
     outline: none;
@@ -32,92 +60,118 @@ a:visited {
 }
 
 h2 {
-    font-family: Gilroy-Bold;
+    font-family: Gilroy-Bold, sans-serif;
     font-size: 34px;
 }
 
-.main_Menu {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    font-family: Gilroy-Bold;
-    border-bottom-style: solid;
-    border-bottom: 1px solid #828282;
-    position: sticky;
-    top: 0;
-    background-color: white;
-}
-
-.menu {
-    padding-top: 15px;
-}
-
 .information {
-    height: 660px;
+    padding-top: 31px;
 }
 
 .text {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    max-width: 943.61px;
+    margin: 0 auto;
 }
 
 .logo {
-    font-family: Gilroy-Bold;
-    font-size: 46px;
-    line-height: 45px;
-    padding-top: 30px;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 47.3392px;
+    line-height: 58.61px;
 }
 
 .abstract {
-    width: 155px;
+    max-width: 155px;
+    text-align: left;
+    line-height: 21.83px;
+    padding-top: 43px;
+    padding-left: 11px;
 }
 
 .lang {
-    display: inline-flex;
-    align-self: end;
-    padding-top: 40px;
-    transform: rotate(-90deg);
-    font-family: Gilroy-Bold;
+    display: flex;
+    align-self: flex-end;
+    padding-left: 21px;
+    transform: rotate(-90deg) translateX(100%);
+    transform-origin: bottom right;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    z-index: -1;
 }
 
 .photo {
-    padding-top: 30px;
+    padding-top: 33px;
+    padding-bottom: 99px;
 }
 
-.aboutMe {
-    display: flex;
-    height: 506px;
-    background-color: #F6F6F6;
-}
-
-.content {
-    height: 253px;
-    margin: auto;
-}
-
-/*Рейтинг владения ПО*/
-
-.skills {
-    height: 550px;
-    padding-top: 60px;
-}
-
-.skillsIcons {
+.about-me {
     display: flex;
     justify-content: space-around;
-    padding: 60px;
+    background-color: #F6F6F6;
+    padding-bottom: 59px;
+}
+
+.inf {
+    padding-top: 116px;
+}
+
+.inf h2 {
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+.inf p {
+    padding-bottom: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 57px;
+    padding-bottom: 110px;
+    width: 943.61px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    padding-bottom: 9px;
+}
+
+.skills-blocks {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.skills-blocks__block p {
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+/*рейтинг программ*/
+
+.skills-blocks__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 166.46px;
+}
+
+.block_name {
+    flex-grow: 3;
 }
 
 .rating {
-    display: inline-block;
-    font-size: 0;
-    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
 }
 
 .rating span {
-    padding: 0;
-    font-size: 20px;
+    font-size: 31px;
     line-height: 1;
     color: lightgrey;
 }
@@ -130,58 +184,77 @@ h2 {
     color: black;
 }
 
+/*Стили портфолио*/
+
 .portfolio {
     display: flex;
     flex-direction: column;
-    height: 2253px;
     background-color: #F6F6F6;
+    padding-top: 75px;
 }
 
-.portfolioInner {
-    margin: auto;
+.portfolio h2 {
+    padding-bottom: 26px;
+}
+
+.portfolio a {
+    text-decoration-line: underline;
+}
+
+.portfolio p {
+    padding-top: 18px;
+    padding-bottom: 83px;
 }
 
 .portfolioImg {
-    padding-top: 60px;
+    /*max-width: 936.24px;*/
 }
 
 footer {
     display: flex;
-    height: 620px;
 }
 
 .contacts {
-    margin: auto;
+    margin: 0 auto;
+    padding-top: 78px;
 }
 
-.contactsIcons {
-    display: flex;
-    width: 342px;
-    margin: auto;
-    justify-content: space-around;
-    padding-top: 91px;
+.contacts p {
+    padding-bottom: 14px;
 }
 
-.contactsText {
-    height: 34px;
-    width: 243px;
-    font-size: 14px;
-    margin: auto;
-    padding-top: 45px;
-}
-
-.sendMessageButton {
-    font-family: Gilroy-bold;
+.send-message-button {
+    font-family: Gilroy-bold, sans-serif;
     font-size: 18px;
     color: white;
-    width: 180px;
-    height: 42px;
+    width: 180.5px;
+    height: 44px;
     border-radius: 21px;
-    border: black;
+    border: 2px solid black;
     background: black;
+    transition-duration: 0.4s;
 }
 
-.sendMessageButton:hover {
+.send-message-button:hover {
     color: black;
-    background: #727272;
+    background: white;
 }
+
+.contacts-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 342px;
+    padding-top: 84px;
+    padding-bottom: 36px;
+}
+
+.contacts-text {
+    font-size: 14px;
+}
+
+.contacts-text p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+}
+
