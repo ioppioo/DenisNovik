@@ -102,7 +102,7 @@ h2 {
 
 .about-me {
     background-color: #F6F6F6;
-    padding-bottom: 59px;
+    padding-bottom: 65px;
 }
 
 .inf {
@@ -122,7 +122,7 @@ h2 {
     display: flex;
     flex-direction: column;
     padding-top: 57px;
-    padding-bottom: 110px;
+    padding-bottom: 104px;
     width: 943.61px;
     margin: 0 auto;
 }
@@ -134,7 +134,7 @@ h2 {
 .skills-blocks {
     display: inline-flex;
     justify-content: space-between;
-    padding-top: 70px;
+    padding-top: 73px;
 }
 
 .skills-blocks__block p {
@@ -149,7 +149,9 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 166.46px;
+    width: 170.46px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .block_name {
@@ -159,7 +161,7 @@ h2 {
 .rating {
     display: flex;
     justify-content: space-between;
-    padding-top: 23px;
+    padding-top: 18px;
 }
 
 .rating span {
@@ -180,7 +182,7 @@ h2 {
 
 .portfolio {
     background-color: #F6F6F6;
-    padding-top: 75px;
+    padding-top: 85px;
     padding-bottom: 1px;
 }
 
@@ -193,8 +195,8 @@ h2 {
 }
 
 .portfolio p {
-    padding-top: 18px;
-    padding-bottom: 83px;
+    padding-top: 19px;
+    padding-bottom: 84px;
 }
 
 footer {
@@ -204,7 +206,7 @@ footer {
 
 .contacts {
     margin: 0 auto;
-    padding-top: 78px;
+    padding-top: 76px;
 }
 
 .contacts p {
@@ -232,8 +234,8 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 342px;
-    padding-top: 84px;
-    padding-bottom: 36px;
+    padding-top: 86px;
+    padding-bottom: 39px;
 }
 
 .contacts-text {
