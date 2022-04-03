@@ -20,7 +20,6 @@
 .inner-menu {
     display: flex;
     justify-content: space-between;
-    align-content: center;
     width: 943.61px;
     margin: 0 auto;
     border-bottom: 1px solid #828282;
@@ -29,7 +28,6 @@
 
 .menu-item {
     padding-top: 15.5px;
-
 }
 
 body {
@@ -37,12 +35,6 @@ body {
     font-size: 18px;
     text-align: center;
     margin: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 73px;
 }
 
 .image {
@@ -69,7 +61,7 @@ h2 {
 }
 
 .information {
-    padding-top: 31px;
+    padding-top: 104px;
 }
 
 .text {
@@ -94,14 +86,12 @@ h2 {
 }
 
 .lang {
-    display: flex;
     align-self: flex-end;
     padding-left: 21px;
     transform: rotate(-90deg) translateX(100%);
     transform-origin: bottom right;
     font-family: Gilroy-Bold, sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
     z-index: -1;
 }
 
@@ -111,8 +101,6 @@ h2 {
 }
 
 .about-me {
-    display: flex;
-    justify-content: space-around;
     background-color: #F6F6F6;
     padding-bottom: 59px;
 }
@@ -191,10 +179,9 @@ h2 {
 /*Стили портфолио*/
 
 .portfolio {
-    display: flex;
-    flex-direction: column;
     background-color: #F6F6F6;
     padding-top: 75px;
+    padding-bottom: 1px;
 }
 
 .portfolio h2 {
@@ -210,12 +197,9 @@ h2 {
     padding-bottom: 83px;
 }
 
-.portfolioImg {
-    /*max-width: 936.24px;*/
-}
-
 footer {
     display: flex;
+    padding-bottom: 180px;
 }
 
 .contacts {
